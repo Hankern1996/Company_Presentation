@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<android.support.constraint.ConstraintLayout
+
+android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green">
+
+    <TextView
+        android:id="@+id/company_presentation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Herzlich Wilkommen zur der Wiesentalranch-App"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@drawable/wiesental"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Abenteuerferien mit und auf dem Pferd
+
+Neue Erfahrungen werden nicht nur mit den Pferden, sondern auch in der Gemeinschaft der Gruppe gemacht: bei den Aktivitäten, bei den drei Hauptmahlzeiten an der großen reich gedeckten Tafel oder zwischendurch, wenn der kleine Hunger und Durst mit Snacks, Obst, Müsli, Kuchen und Säften gestillt wird. Abends machen wir gemeinsam das Programm für den nächsten abwechslungsreichen Tag. Das kann z. B. Reitunterricht auf unseren westerngerittenen Pferden in Halle oder Gelände sein oder wir machen einen Ausritt."
+        android:textAlignment="gravity"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/company_presentation"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"/>
+</android.support.constraint.ConstraintLayout>
+</ScrollView>

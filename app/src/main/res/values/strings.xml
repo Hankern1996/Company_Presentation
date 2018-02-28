@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Company_Presentation</string>
+    <string name="app_label">Wiesentalranch</string>
+    <string name="facebook_app_id">1845344345763835</string>
+    <string name="fb_login_protocol_scheme">fb1845344345763835</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>
